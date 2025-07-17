@@ -154,7 +154,7 @@ def main():
 
         else:
             print("[!] Authentication Failed")
-            print("\t Make sure you paste your current credentials from My Apps > AWS IAM > AccessKeys")
+            print("\t Make sure you paste your AWS creds in the terminal")
             print("\t export AWS_ACCESS_KEY_ID=...")
         
     except Exception as e:
